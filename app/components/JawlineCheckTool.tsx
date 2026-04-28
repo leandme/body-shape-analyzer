@@ -1,3 +1,3 @@
-import HeightEstimatorTool from "./HeightEstimatorTool";
+import BodyShapeAnalyzerTool from "./BodyShapeAnalyzerTool";
 
-export default HeightEstimatorTool;
+export default BodyShapeAnalyzerTool;

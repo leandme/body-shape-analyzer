@@ -12,9 +12,9 @@ export default function Hero() {
           alt="Box Office"
         />
         <div className="text-center lg:text-left max-w-md">
-          <h1 className="text-4xl font-bold">Body Fat Estimator</h1>
+          <h1 className="text-4xl font-bold">Body Shape Analyzer</h1>
           <p className="py-6">
-            Upload an image and find out your bodyfat.
+            Enter your measurements and analyze your body shape.
           </p>
           <UploadDropzone />
         </div>

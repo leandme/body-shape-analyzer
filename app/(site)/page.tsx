@@ -1,10 +1,10 @@
 import { Metadata } from "next";
 import { Suspense } from "react";
-import HeightEstimatorTool from "../components/HeightEstimatorTool";
+import BodyShapeAnalyzerTool from "../components/BodyShapeAnalyzerTool";
 
-const title = "Height Estimator AI – Estimate Height from Photo";
+const title = "Body Shape Analyzer - Analyze Your Body Shape";
 const description =
-  "Estimate apparent adult height from a full-body photo with confidence and range context using AI. 100% free online app.";
+  "Analyze your body shape from bust/chest, waist, and hip measurements with clear category matching and visual references.";
 
 export const metadata: Metadata = {
   title: title,
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       }
     >
-      <HeightEstimatorTool />
+      <BodyShapeAnalyzerTool />
     </Suspense>
   );
 }

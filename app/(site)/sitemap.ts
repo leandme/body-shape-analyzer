@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 import fs from 'fs';
 import path from 'path';
 
-const BASE_URL = 'https://heightestimatorai.com';
+const BASE_URL = "https://bodyshapeanalyzer.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pagesDirectory = path.join(process.cwd(), '/app/(site)');
@@ -35,7 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return paths.map((url) => ({
     url,
     lastModified: new Date(), // You could make this more dynamic if needed
-    changeFrequency: 'daily', // Or your preferred default value
+    changeFrequency: "daily", // Or your preferred default value
     priority: 0.7, // Or your preferred default value
   }));
 }

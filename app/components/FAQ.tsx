@@ -20,8 +20,8 @@ export default function FAQ() {
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                Upload a clear full-body photo and our model analyzes visual cues like proportions, posture, and
-                perspective to estimate apparent adult height.
+                  Enter your bust/chest, waist, and hip measurements. The tool compares your proportions to common
+                  body-shape patterns and returns your closest match.
                 </p>
               </div>
             </div>
@@ -32,7 +32,7 @@ export default function FAQ() {
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                  Most estimates are completed in less than 20 seconds.
+                  Results update instantly as you move the sliders or enter values.
                 </p>
               </div>
             </div>
@@ -43,20 +43,20 @@ export default function FAQ() {
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                It is designed for directional visual estimates, not exact measurement. Accuracy improves with
-                full-body framing, better lighting, and consistent camera setup.
+                  It is designed for directional classification, not clinical diagnosis. Accuracy improves when you
+                  measure consistently at the same body landmarks.
                 </p>
               </div>
             </div>
             <div className="collapse collapse-plus bg-base-500 rounded-lg">
               <input type="radio" name="faq-accordion" />
               <div className="collapse-title text-lg lg:text-xl">
-              What types of photos should I upload?
+                How should I take measurements?
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                For best results, upload a well-lit full-body standing photo with head-to-feet visibility. Avoid
-                extreme camera angles and include only one person in each photo.
+                  Use a flexible tape. Measure bust/chest at the fullest point, waist at the narrowest point, and
+                  hips at the widest point while keeping the tape level.
                 </p>
               </div>
             </div>
@@ -67,8 +67,8 @@ export default function FAQ() {
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                Yes. We prioritize privacy and process uploads only to generate your estimate. See our Privacy Policy
-                for details on retention and data handling.
+                  Yes. We prioritize privacy and process submitted data only to provide and improve the service. See
+                  our Privacy Policy for details on retention and handling.
                 </p>
               </div>
             </div>

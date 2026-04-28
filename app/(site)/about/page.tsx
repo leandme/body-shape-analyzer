@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 const title = "About";
 const description =
-  "Learn what Height Estimator is, how photo-based height estimation works, its limitations, and how to use it responsibly.";
+  "Learn what Body Shape Analyzer is, how measurement-based body shape analysis works, and how to use results responsibly.";
 
 export const metadata: Metadata = {
   title,
@@ -17,56 +17,56 @@ export default function AboutPage() {
 
         <div className="prose prose-invert max-w-3xl text-center lg:text-left">
           <p className="text-lg">
-            Height Estimator is a free visual tool designed to help people estimate apparent adult height from a
-            single full-body photo. The goal is simple: make visual height estimation more accessible, private, and
-            practical for everyday use.
+            Body Shape Analyzer is a free tool designed to help people understand their body-shape pattern using
+            bust/chest, waist, and hip measurements. The goal is simple: make body-shape analysis practical,
+            consistent, and easy to use.
           </p>
 
           <h2>Why this tool exists</h2>
           <p className="text-lg">
-            Many people want a quick height estimate from a photo without manual measurement setup or specialized
-            equipment. Height Estimator exists as a lightweight option for directional estimates and comparison across
-            similarly framed photos.
+            Many people want better clarity on their proportions for fit planning, style decisions, and progress
+            tracking. Body Shape Analyzer provides quick and repeatable insight without complex setup.
           </p>
 
-          <h2>How the estimate works (high level)</h2>
+          <h2>How the analyzer works (high level)</h2>
           <p className="text-lg">
-            The estimator analyzes visual cues in your uploaded image such as body proportions, perspective, posture,
-            and scene context. It returns an estimated height, a plausible range, and a confidence level.
+            The analyzer compares your bust/chest, waist, and hip proportions to common body-shape categories such as
+            hourglass, pear, rectangle, inverted triangle, and apple. It then returns a best-fit category and match
+            strength.
           </p>
           <p className="text-lg">
-            Like all photo-based estimates, results depend on image quality, camera angle, distance, posture, and
-            visible scale cues.
+            Like all classification tools, results are directional and can shift with measurement technique, posture,
+            and natural body variation.
           </p>
 
           <h2>Accuracy and limitations</h2>
           <p className="text-lg">
-            Height Estimator provides a directional estimate, not an exact clinical measurement. It is most useful for
-            rough context and comparison when photo conditions are consistent.
+            Body Shape Analyzer provides a directional classification, not a medical diagnosis. It is most useful for
+            personal context, consistency checks, and longitudinal tracking.
           </p>
           <ul className="text-lg">
             <li>Not intended for medical diagnosis or treatment decisions</li>
-            <li>Accuracy varies with image framing, camera perspective, and photo quality</li>
-            <li>Best used as a rough visual estimate, not a substitute for direct measurement</li>
+            <li>Classification changes if measurement landmarks are inconsistent</li>
+            <li>Best used as a repeatable comparison tool over time</li>
           </ul>
 
           <h2>Privacy</h2>
           <p className="text-lg">
-            Privacy matters. Use photos you are comfortable uploading to a computer system. Review the Privacy Policy
-            for details on data handling.
+            Privacy matters. Use the tool in ways you are comfortable with, and review the Privacy Policy for details
+            on data handling.
           </p>
 
           <h2>Who should use this tool</h2>
           <ul className="text-lg">
-            <li>People who want a quick photo-based height estimate</li>
-            <li>Users comparing multiple photos under similar conditions</li>
-            <li>Anyone looking for rough visual context before direct measurement</li>
+            <li>People who want a quick body-shape estimate from measurements</li>
+            <li>Users tracking proportion trends over time</li>
+            <li>Anyone planning clothing fit around body-shape context</li>
           </ul>
 
           <h2>Who should not rely on this tool</h2>
           <ul className="text-lg">
-            <li>Anyone needing exact height for medical, legal, or official records</li>
-            <li>Individuals requiring high-precision biometric measurement</li>
+            <li>Anyone needing a clinical or diagnostic assessment</li>
+            <li>Individuals requiring precision anthropometry for formal use</li>
           </ul>
 
           <h2 id="founder">About the Founder</h2>
@@ -105,8 +105,8 @@ export default function AboutPage() {
                 </div>
               </div>
               <p className="text-gray-500 mt-1">
-                Independent product builder focused on practical fitness tools, height estimation, and visual progress
-                tracking.
+                Independent product builder focused on practical fitness tools, body composition insights, and visual
+                progress tracking.
               </p>
             </div>
           </div>
