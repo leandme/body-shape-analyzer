@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { Suspense } from "react";
 import HeightEstimatorTool from "../components/HeightEstimatorTool";
 
-const title = "Height Estimator";
+const title = "Height Estimator AI – Estimate Height from Photo";
 const description =
   "Estimate apparent adult height from a full-body photo with confidence and range context.";
 
