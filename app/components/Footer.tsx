@@ -108,6 +108,16 @@ export default function Footer() {
                   Jawline Check
                 </a>
               </li>
+              <li>
+                <a
+                  className="hover:text-white"
+                  href="https://bodyvisualizer.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Body Visualizer
+                </a>
+              </li>
             </ul>
           </div>
         </div>
