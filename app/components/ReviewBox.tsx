@@ -40,7 +40,7 @@ export default function ReviewBox() {
             <input type="radio" name="rating-4" className="mask mask-star-2 bg-yellow-400" />
           </div>
           <p className="text-sm">
-            <span className="font-bold">1,921</span> jawlines analyzed
+            <span className="font-bold">1,921</span> height estimates generated
           </p>
         </div>
       </div>

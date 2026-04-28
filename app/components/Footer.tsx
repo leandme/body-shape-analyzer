@@ -7,17 +7,17 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <img
                 src="/favicon.ico"
-                alt="Jawline Check Logo"
+                alt="Height Estimator Logo"
                 width={32}
                 height={32}
                 className="w-8 h-8 shrink-0 object-contain"
                 loading="eager"
               />
-              <span className="text-lg font-semibold">Jawline Check</span>
+              <span className="text-lg font-semibold">Height Estimator</span>
             </div>
           </a>
           <p className="mt-3 text-base text-gray-300 leading-relaxed">
-            Calculate your gonial angle, detect your jawline type, and get a rating.
+            Estimate apparent adult height from a full-body photo with confidence and range context.
           </p>
         </div>
 

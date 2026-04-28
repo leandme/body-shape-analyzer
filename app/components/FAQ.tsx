@@ -20,7 +20,8 @@ export default function FAQ() {
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                Simply upload a clear photo of yourself, and our advanced trained AI analyzes key body measurements and markers to estimate your body fat percentage.
+                Upload a clear full-body photo and our model analyzes visual cues like proportions, posture, and
+                perspective to estimate apparent adult height.
                 </p>
               </div>
             </div>
@@ -42,7 +43,8 @@ export default function FAQ() {
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                Our AI model is trained on a large dataset of body composition scans, making it highly accurate. While it’s not a replacement for medical-grade devices, it provides reliable estimates that align closely with professional methods like DEXA scans.
+                It is designed for directional visual estimates, not exact measurement. Accuracy improves with
+                full-body framing, better lighting, and consistent camera setup.
                 </p>
               </div>
             </div>
@@ -53,7 +55,8 @@ export default function FAQ() {
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                For best results, upload a well-lit, full-body photo in your underwear/swimwear to ensure the AI can analyze your body accurately. Only one person in each photo.
+                For best results, upload a well-lit full-body standing photo with head-to-feet visibility. Avoid
+                extreme camera angles and include only one person in each photo.
                 </p>
               </div>
             </div>
@@ -64,7 +67,8 @@ export default function FAQ() {
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                Yes! We prioritize your privacy. Your photos are processed securely and are never shared, stored, or used for any purpose beyond your analysis. All data is automatically deleted after processing.
+                Yes. We prioritize privacy and process uploads only to generate your estimate. See our Privacy Policy
+                for details on retention and data handling.
                 </p>
               </div>
             </div>

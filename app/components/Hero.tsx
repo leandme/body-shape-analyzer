@@ -6,14 +6,14 @@ export default function Hero() {
       <div className="hero-content text-center">
         <div className="max-w-2xl">
           <h1 className="text-4xl lg:text-5xl font-bold">
-            Measure Your Jawline Angle
+            Estimate Height from a Photo
           </h1>
           <p className="py-6 text-lg mt-6">
-            Upload a side profile photo and instantly find out your gonial angle. Quick, accurate, and judgment-free.
+            Upload a full-body photo and get an apparent adult-height estimate with confidence and range context.
           </p>
-          <a href="/upload">
+          <a href="/">
             <button className="btn btn-primary btn-lg text-white mt-6">
-              Check My Jawline <span className="text-lg">→</span>
+              Estimate My Height <span className="text-lg">→</span>
             </button>
           </a>
           <ReviewBox />

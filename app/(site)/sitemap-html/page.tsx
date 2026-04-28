@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sitemap - Jawline Check",
-  description: "HTML sitemap for Jawline Check.",
+  title: "Sitemap - Height Estimator",
+  description: "HTML sitemap for Height Estimator.",
 };
 
 const links = [

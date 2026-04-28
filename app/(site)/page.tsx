@@ -1,10 +1,10 @@
 import { Metadata } from "next";
 import { Suspense } from "react";
-import JawlineCheckTool from "../components/JawlineCheckTool";
+import HeightEstimatorTool from "../components/HeightEstimatorTool";
 
-const title = "Jawline Check – Gonial Angle and Jawline Type Detector";
+const title = "Height Estimator";
 const description =
-  "Upload a side-profile photo to estimate jawline angle and classify jawline type with AI. Get confidence scoring, landmark overlay, and interpretation table.";
+  "Estimate apparent adult height from a full-body photo with confidence and range context.";
 
 export const metadata: Metadata = {
   title: title,
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       }
     >
-      <JawlineCheckTool />
+      <HeightEstimatorTool />
     </Suspense>
   );
 }
