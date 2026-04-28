@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 import fs from 'fs';
 import path from 'path';
 
-const BASE_URL = 'https://bodyfatestimator.ai'; // Replace with your domain
+const BASE_URL = 'https://jawlinecheck.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pagesDirectory = path.join(process.cwd(), '/app/(site)');
