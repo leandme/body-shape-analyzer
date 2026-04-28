@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
           </a>
           <p className="mt-3 text-base text-gray-300 leading-relaxed">
-            Analyze body-shape proportions from bust/chest, waist, and hip measurements.
+            Upload a full-body photo and get an AI-estimated body-shape category.
           </p>
         </div>
 

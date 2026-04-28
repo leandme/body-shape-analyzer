@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 const title = "Contact Body Shape Analyzer";
 const description =
-  "Contact Body Shape Analyzer support for help with measurements, interpretation, and general questions.";
+  "Contact Body Shape Analyzer support for help with photo uploads, interpretation, and general questions.";
 
 export const metadata: Metadata = {
   title,
@@ -14,8 +14,8 @@ export default function ContactPage() {
     <div className="container mx-auto px-4 py-8 lg:px-8 lg:py-16 max-w-3xl">
       <h1 className="text-4xl font-bold mb-6">Contact</h1>
       <p className="text-lg mb-4">
-        Need help with your body shape result, measurement setup, or interpretation questions? Reach out and we will
-        help you troubleshoot quickly.
+        Need help with your body shape result, photo upload issues, or interpretation questions? Reach out and we
+        will help you troubleshoot quickly.
       </p>
       <p className="text-lg mb-8">
         Email:{" "}

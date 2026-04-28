@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 const title = "About";
 const description =
-  "Learn what Body Shape Analyzer is, how measurement-based body shape analysis works, and how to use results responsibly.";
+  "Learn what Body Shape Analyzer is, how photo-based body shape analysis works, and how to use results responsibly.";
 
 export const metadata: Metadata = {
   title,
@@ -17,37 +17,36 @@ export default function AboutPage() {
 
         <div className="prose prose-invert max-w-3xl text-center lg:text-left">
           <p className="text-lg">
-            Body Shape Analyzer is a free tool designed to help people understand their body-shape pattern using
-            bust/chest, waist, and hip measurements. The goal is simple: make body-shape analysis practical,
-            consistent, and easy to use.
+            Body Shape Analyzer is a free tool designed to help people estimate likely body-shape patterns from a
+            single full-body photo. The goal is simple: make visual body-shape analysis practical, private, and easy
+            to use.
           </p>
 
           <h2>Why this tool exists</h2>
           <p className="text-lg">
             Many people want better clarity on their proportions for fit planning, style decisions, and progress
-            tracking. Body Shape Analyzer provides quick and repeatable insight without complex setup.
+            tracking. Body Shape Analyzer provides quick directional insight from an image without complex setup.
           </p>
 
           <h2>How the analyzer works (high level)</h2>
           <p className="text-lg">
-            The analyzer compares your bust/chest, waist, and hip proportions to common body-shape categories such as
-            hourglass, pear, rectangle, inverted triangle, and apple. It then returns a best-fit category and match
-            strength.
+            The analyzer reviews visual cues such as upper/lower-body balance, waist definition, and frame silhouette
+            to estimate a best-fit body-shape category.
           </p>
           <p className="text-lg">
-            Like all classification tools, results are directional and can shift with measurement technique, posture,
-            and natural body variation.
+            Like all photo-based classification tools, results are directional and can shift with camera angle,
+            posture, clothing, and image quality.
           </p>
 
           <h2>Accuracy and limitations</h2>
           <p className="text-lg">
             Body Shape Analyzer provides a directional classification, not a medical diagnosis. It is most useful for
-            personal context, consistency checks, and longitudinal tracking.
+            personal context and repeatable comparisons when image conditions are similar.
           </p>
           <ul className="text-lg">
             <li>Not intended for medical diagnosis or treatment decisions</li>
-            <li>Classification changes if measurement landmarks are inconsistent</li>
-            <li>Best used as a repeatable comparison tool over time</li>
+            <li>Classification can change with lighting, clothing, posture, and camera perspective</li>
+            <li>Best used as a directional comparison tool over time</li>
           </ul>
 
           <h2>Privacy</h2>
@@ -58,8 +57,8 @@ export default function AboutPage() {
 
           <h2>Who should use this tool</h2>
           <ul className="text-lg">
-            <li>People who want a quick body-shape estimate from measurements</li>
-            <li>Users tracking proportion trends over time</li>
+            <li>People who want a quick photo-based body-shape estimate</li>
+            <li>Users tracking body-shape trends over time with similar photo conditions</li>
             <li>Anyone planning clothing fit around body-shape context</li>
           </ul>
 

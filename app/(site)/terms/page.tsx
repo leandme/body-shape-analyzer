@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms & Conditions - Body Shape Analyzer",
-  description: "Terms governing use of Body Shape Analyzer and its measurement-based body-shape analysis features.",
+  description: "Terms governing use of Body Shape Analyzer and its photo-based body-shape analysis features.",
 };
 
 export default function TermsPage() {
@@ -16,8 +16,8 @@ export default function TermsPage() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">1. Service Scope</h2>
         <p>
-          Body Shape Analyzer provides measurement-based body-shape analysis. Results are informational only and are
-          not medical advice.
+          Body Shape Analyzer provides photo-based body-shape analysis. Results are informational only and are not
+          medical advice.
         </p>
       </section>
 

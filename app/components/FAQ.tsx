@@ -20,8 +20,8 @@ export default function FAQ() {
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                  Enter your bust/chest, waist, and hip measurements. The tool compares your proportions to common
-                  body-shape patterns and returns your closest match.
+                  Upload a clear full-body photo and the AI analyzes visual cues like silhouette balance, waist
+                  definition, and body-frame proportions to estimate your likely body shape.
                 </p>
               </div>
             </div>
@@ -32,7 +32,7 @@ export default function FAQ() {
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                  Results update instantly as you move the sliders or enter values.
+                  Most analyses are completed in under 20 seconds.
                 </p>
               </div>
             </div>
@@ -43,20 +43,20 @@ export default function FAQ() {
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                  It is designed for directional classification, not clinical diagnosis. Accuracy improves when you
-                  measure consistently at the same body landmarks.
+                  It is designed for directional classification, not clinical diagnosis. Accuracy improves with clear
+                  full-body framing, better lighting, and a neutral camera angle.
                 </p>
               </div>
             </div>
             <div className="collapse collapse-plus bg-base-500 rounded-lg">
               <input type="radio" name="faq-accordion" />
               <div className="collapse-title text-lg lg:text-xl">
-                How should I take measurements?
+                What kind of photo works best?
               </div>
               <div className="collapse-content">
                 <p className="text-lg">
-                  Use a flexible tape. Measure bust/chest at the fullest point, waist at the narrowest point, and
-                  hips at the widest point while keeping the tape level.
+                  Use a full-body standing photo with head-to-feet visibility. Avoid heavy obstructions, extreme
+                  camera angles, and poor lighting.
                 </p>
               </div>
             </div>

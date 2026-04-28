@@ -4,7 +4,7 @@ import BodyShapeAnalyzerTool from "../components/BodyShapeAnalyzerTool";
 
 const title = "Body Shape Analyzer - Analyze Your Body Shape";
 const description =
-  "Analyze your body shape from bust/chest, waist, and hip measurements with clear category matching and visual references.";
+  "Upload a full-body photo and get an AI-estimated body shape category with visual references.";
 
 export const metadata: Metadata = {
   title: title,

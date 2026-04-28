@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy - Body Shape Analyzer",
-  description: "Learn how Body Shape Analyzer handles measurement inputs, usage data, and privacy rights.",
+  description: "Learn how Body Shape Analyzer handles uploaded photos, usage data, and privacy rights.",
 };
 
 export default function PrivacyPolicy() {
@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">Information We Process</h2>
         <ul className="list-disc pl-6 space-y-1">
-          <li>Measurement inputs you provide for body-shape analysis.</li>
+          <li>Images you upload for photo-based body-shape analysis.</li>
           <li>Basic technical data such as browser type and device metadata.</li>
           <li>Usage analytics to improve reliability and UX.</li>
         </ul>
@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">Data Retention</h2>
         <p>
-          We aim to minimize retention. Submitted data is intended for result generation and service reliability.
+          We aim to minimize retention. Uploaded photos are intended for analysis and result generation only.
           Retention duration may vary based on operational and security requirements.
         </p>
       </section>
