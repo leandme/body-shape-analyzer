@@ -381,9 +381,6 @@ export default function HeightEstimatorTool() {
             <div className="w-full max-w-lg mt-6 lg:max-w-xl">
               <TryExamples />
             </div>
-            <p className="mt-6 text-sm text-gray-600 max-w-md text-center">
-              Best results come from a full-body standing photo with camera distance, minimal tilt, and clear ground context.
-            </p>
           </div>
         ) : (
           <div className="w-full max-w-5xl mt-10">
@@ -529,29 +526,6 @@ export default function HeightEstimatorTool() {
           </div>
         </div>
 
-        <div className={sectionWrap}>
-          <h2 className={h2Class}>References</h2>
-          <ul className="list-disc pl-6 space-y-3 text-lg break-words">
-            <li>
-              CDC adult body measurement context and population distributions:
-              <a className="text-primary underline ml-1" href="https://www.cdc.gov/nchs/fastats/body-measurements.htm">
-                CDC FastStats
-              </a>
-            </li>
-            <li>
-              WHO growth reference standards and height-for-age context:
-              <a className="text-primary underline ml-1" href="https://www.who.int/tools/growth-reference-data-for-5to19-years">
-                WHO Growth Reference Data
-              </a>
-            </li>
-            <li>
-              OpenCV camera geometry and calibration fundamentals used in image-based scale reasoning:
-              <a className="text-primary underline ml-1" href="https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html">
-                OpenCV calib3d documentation
-              </a>
-            </li>
-          </ul>
-        </div>
       </section>
     </main>
   );
