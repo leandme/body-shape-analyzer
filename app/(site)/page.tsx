@@ -4,7 +4,7 @@ import HeightEstimatorTool from "../components/HeightEstimatorTool";
 
 const title = "Height Estimator AI – Estimate Height from Photo";
 const description =
-  "Estimate apparent adult height from a full-body photo with confidence and range context.";
+  "Estimate apparent adult height from a full-body photo with confidence and range context using AI. 100% free online app.";
 
 export const metadata: Metadata = {
   title: title,
