@@ -12,6 +12,20 @@ export default function Navbar() {
           <img src={LOGO_SRC} alt="Body Shape Analyzer Logo" className="w-6 h-6" />
           {SITE_NAME}
         </a>
+        <div className="hidden lg:flex ml-4 xl:ml-8">
+          <ul className="menu menu-horizontal px-1 gap-2 xl:gap-4 text-base whitespace-nowrap flex-nowrap">
+            <li>
+              <a
+                href="https://bodyvisualizer.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-normal hover:bg-transparent focus:bg-transparent active:bg-transparent"
+              >
+                Body Visualizer
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
