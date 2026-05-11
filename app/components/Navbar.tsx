@@ -24,6 +24,16 @@ export default function Navbar() {
                 Body Visualizer
               </a>
             </li>
+            <li>
+              <a
+                href="https://skoy.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-normal hover:bg-transparent focus:bg-transparent active:bg-transparent"
+              >
+                AI Calorie Counter
+              </a>
+            </li>
           </ul>
         </div>
       </div>
