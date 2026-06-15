@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const GOOGLE_ANALYTICS_ID = "G-B94X4749PN";
+const ADSENSE_CLIENT_ID = "ca-pub-9184203217182921";
 
 export default function RootLayout({
   children,
@@ -14,6 +15,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-base-100 text-base-content">
+        <Script
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}`}
           strategy="afterInteractive"
