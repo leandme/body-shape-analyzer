@@ -1,4 +1,13 @@
 export default function Footer() {
+  const moreTools = [
+    { href: "https://bodyfatestimator.ai", label: "Body Fat Estimator" },
+    { href: "https://bodyvisualizer.ai", label: "Body Visualizer" },
+    { href: "https://canthaltilttest.com", label: "Canthal Tilt Test" },
+    { href: "https://ethnicityguesser.com", label: "Ethnicity Guesser" },
+    { href: "https://heightestimatorai.com", label: "Height Estimator" },
+    { href: "https://jawlinecheck.com", label: "Jawline Check" },
+  ];
+
   return (
     <footer className="bg-[#18181b] text-white">
       <div className="mx-auto max-w-7xl px-6 py-12">
@@ -23,7 +32,7 @@ export default function Footer() {
 
         <div className="my-8 h-px bg-white/10" />
 
-        <div className="mt-10 grid grid-cols-1 gap-8">
+        <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
           <div>
             <h6 className="text-lg font-semibold text-gray-200">Site</h6>
             <ul className="mt-3 space-y-2 text-base text-gray-300">
@@ -44,7 +53,18 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
+          <div>
+            <h6 className="text-lg font-semibold text-gray-200">More Tools</h6>
+            <ul className="mt-3 space-y-2 text-base text-gray-300">
+              {moreTools.map((tool) => (
+                <li key={tool.href}>
+                  <a className="hover:text-white" href={tool.href}>
+                    {tool.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
 
         <div className="my-8 h-px bg-white/10" />
